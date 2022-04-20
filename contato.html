@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contato</title>
-</head>
-<body>
-    <ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/icon.png" type="image/png">   
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="index.html"> Início </a>
+        </li>
+        <li>
+          <a href="contato.html"> Contato </a>
+        </li>
+        <li>
+          <a href="https://github.com/rflmoreira"> GitHub </a>
+        </li>
+      </ul>
+    </nav>
 
-<li>
-    <a href="index.html">Início</a>
-</li>
+    <h1>Entre em contato comigo</h1>
+
+    <main class="contact-page">
+      <form>
+        <label for="nome">Nome:</label> 
+        <input type="text" id="nome" />
         
-<li>
-    <a href="contato.html">Sigam meu Github</a>
-</li>
-    </ul>
-
-<li>
-    <a href="https://github.com/rflmoreira">clica aqui</a>
-</li>
-
-</body>
+        
+        
+        <label for="email">E-mail:</label> 
+        <input type="email" id="email" />
+        
+        
+        <label for="assunto">Assunto:</label> 
+        <textarea name="assunto" id="assunto" rows="3"></textarea>
+        
+        
+        <button>Enviar</button>
+      </form>
+  
+      <div class="contato">  
+        <img src="assets/gif/sexy-wink.gif" alt="bebendo suco de laranja">
+      </div>
+    </main>
+    <footer>
+      <hr>
+      <p>Feito com muito amor e carinho (😎) por: <span class="destaque">Rafael Moreira - 2022</span></p>
+    </footer>
+  </body>
 </html>
